@@ -1,0 +1,20 @@
+[profile.default]
+src = "contracts"  # Point to your contracts directory
+out = "out"
+libs = ["lib"]
+# remappings = [
+#     "@openzeppelin-contracts=lib/openzeppelin-contracts/"
+# ]
+solc = "0.8.20"  # Using the newer solc version
+
+[rpc_endpoints]
+sepolia = "https://eth-sepolia.g.alchemy.com/v2/demo"
+base_sepolia = "https://base-sepolia.g.alchemy.com/v2/aTStryPcLTWuKHVWG1b0f2XKeb41eExW"
+
+[etherscan]
+sepolia = { key = "DTYAGJ1RSAS86M1GX7RMMAG59NMCR76IQV" }
+
+[fmt]
+line_length = 120
+tab_width = 4
+bracket_spacing = true
