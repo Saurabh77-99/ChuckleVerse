@@ -15,8 +15,12 @@ interface User {
   heheScore: number
   avatarUrl?: string
 }
+// let client = createThirdwebClient({
+//   clientId: "8e1035b064454b1b9505e0dd626a8555"
+// })
 let client = createThirdwebClient({
-  clientId: "8e1035b064454b1b9505e0dd626a8555"
+  // clientId: "8e1035b064454b1b9505e0dd626a8555"
+  clientId: "68ea2987b6db7311a5087ba9b05374ce"
 })
 const USERS_PER_PAGE = 10
 

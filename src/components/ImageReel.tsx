@@ -11,9 +11,14 @@ import { useActiveAccount, useActiveWalletConnectionStatus } from "thirdweb/reac
 import HeheMemeABI from '@/contracts/HeheMeme.json';
 import { Check } from 'lucide-react';
 
+// const client = createThirdwebClient({
+//   clientId: "8e1035b064454b1b9505e0dd626a8555"
+// });
+
 const client = createThirdwebClient({
-  clientId: "8e1035b064454b1b9505e0dd626a8555"
-});
+  // clientId: "8e1035b064454b1b9505e0dd626a8555"
+  clientId: "68ea2987b6db7311a5087ba9b05374ce"
+})
 
 const contract = getContract({
   client,

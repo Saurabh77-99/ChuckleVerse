@@ -8,9 +8,13 @@ import { baseSepolia } from "thirdweb/chains";
 import { selectedChain } from "@/lib/chains";
 import { ConnectButton, useActiveAccount, useActiveWalletConnectionStatus } from "thirdweb/react";
 
+// const client = createThirdwebClient({
+//   clientId: "8e1035b064454b1b9505e0dd626a8555"
+// });
 const client = createThirdwebClient({
-  clientId: "8e1035b064454b1b9505e0dd626a8555"
-});
+  // clientId: "8e1035b064454b1b9505e0dd626a8555"
+  clientId: "68ea2987b6db7311a5087ba9b05374ce"
+})
 
 interface User {
   username: string
